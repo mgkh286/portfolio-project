@@ -8,10 +8,6 @@ body {
     font-family: sans-serif;
 }
 
-header {
-    width: 100%;
-    /* margin: 0 3rem; */
-}
 
 a {
     text-decoration: none;
@@ -30,14 +26,14 @@ img {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* padding: 1rem 0.5rem; */
+    padding:  0.5rem;
 }
 
 .logo {
     font-family: cursive;
     font-size: 3rem;
     font-weight: 700;
-    margin: 1rem 1.5rem;
+    margin: 1rem 2rem;
     color: #0000ff8e;
 }
 
@@ -52,33 +48,61 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-right: 1rem;
+   margin-left: 1rem;
 }
 
 .navbar-items .navbar-item {
-    /* margin-right: 2rem; */
-    padding-right: 0.5rem;
+    margin-right: 2rem;
+    padding: .6rem 0.7rem;
+    /* border: 2px solid #000; */
+    border-radius: 0.7rem;
 }
 
 .navbar-items .navbar-item a:hover {
+    
+    border: 2px solid #fff;
     color: #00ffffb2;
+    border-radius: 1rem;
     background: #fff;
 }
 
 .navbar-btn {
-    margin-right: 1.5rem;
+    padding: 1rem 2.5rem;
+    margin-right: 1rem;
+    border: 2px solid #fff;
+    border-radius: 1rem;
+}
+
+
+.navbar-btn:hover {
+    padding: 1rem 2.5rem;
+    margin-right: 1rem;
+    border: 2px solid #000;
+    background-color: #B595D1;
+    border-radius: 1rem;
+    transition: all 3s ease-in-out;
 }
 
 /* potfolio section  */
 
 .portfolio {
-    background: palevioletred;
-    margin: 1rem 2rem;
+    background-image: url(/bkground.jpg);
 }
 
 .portfolio-content {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 3rem 2rem;
+}
+
+.potfolio-txt{
+    text-align: center;
+    margin: 1rem 2rem
+}
+
+
+.potfolio-txt h3 {
+    font-size: 1;
 }
 
